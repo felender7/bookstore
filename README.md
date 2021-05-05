@@ -9,7 +9,7 @@ User can :
 * Update entry
 * Delete
 
-![Imgur](https://i.imgur.com/IRhO5bY.png)
+![Imgur](https://i.imgur.com/IRhO5bY.png?1)
 
 ## Getting Started
 Bookstore App Manager Build with Python, Tkinter and sqlite3
