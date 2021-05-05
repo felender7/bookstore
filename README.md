@@ -22,6 +22,10 @@ You'll need the following installed to run the application successfully:
 * TKinter
 * sqlite3
 
+To use postgres, download it from the official website [https://www.postgresql.org/download/]
+* psycopg2 - `pip install psycopg2`
+
+Change `self.conn = sqlite3.connect(db)` to  `self.conn = psycopg2.connect(db)`
 
 #### Generate executable file
 

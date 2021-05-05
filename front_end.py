@@ -2,6 +2,10 @@ from tkinter import *
 from back_end import Database
 
 database = Database("bookstore.db")
+'''
+postgres
+database : Database("dbname='dbname' user='postgres' password='' host='localhost' port='5432'")     
+'''
 
 class Window(object):
 
@@ -88,7 +92,7 @@ class Window(object):
             self.txt_isbn.insert(END, self.selected_tuple[4])
         except IndexError:
             pass
-            
+
     def view_command(self):
         self.list_results.delete(0, END)
         for row in database.view_all():
