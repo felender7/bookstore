@@ -30,5 +30,5 @@ Change `self.conn = sqlite3.connect(db)` to  `self.conn = psycopg2.connect(db)`
 #### Generate executable file
 
 * pyinstaller - `pip install pyinstaller`
-* Run - `pyinstaller --onfile[optional] --windowed[optional] front_end.py `
+* Run - `pyinstaller --onefile[optional] --windowed[optional] front_end.py `
 * For more information visit the link `https://pyinstaller.readthedocs.io/en/stable/`
